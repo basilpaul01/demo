@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+      <div class="col col-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="row g-3">
+          <form class="form-container" [formGroup]="register" (submit)="validate(redirect,user.value,password1.value)">
+            <h1>LOGIN</h1>
+            <label for="email" class="form-label" id="em">Username</label>
+            <input type="text" #user class="form-control" formControlName="username" placeholder="Enter username"><br>
+            <label for="password" class="form-label" id="pass">Password</label>
+            <input type="password" #password1 class="form-control" formControlName="password" placeholder="Enter password">
+            <br><button class="" [disabled]="register.invalid">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+</div>

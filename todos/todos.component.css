@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+*
+{
+    font-weight: bolder;
+
+}
+h1
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    /* margin-top: 1%; */
+    margin-bottom: 1%;
+    color: aliceblue;
+    background-color: black;
+}
+
+input:checked
+{
+  color: aqua;
+  width: 12px;
+}
+li > p{
+padding:10px;
+}
+
+input.checkbox
+{
+    width: 25px;
+    height: 25px;
+}
+
+.container
+{
+
+background-position: 0 0, .5px .5px;
+background-size: 5px 5px;
+}
+.todo
+{position: relative;
+    padding: auto;
+    min-height: 50px;
+    border-radius: 5px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+.box
+{
+    display: flex;
+    padding-left: 10px;
+    height: fit-content;
+   
+
+
+}
+
+.checkbox{
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    margin: 15px;
+    width: 30px;
+height: 30px;
+}
+.desc
+{    margin: 10px;
+     position: relative;
+    
+}
+
+
+.box:hover
+{box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  
+}

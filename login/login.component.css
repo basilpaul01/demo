@@ -1,0 +1,58 @@
+*
+{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    
+}
+h1
+{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 5px 5px 5px gray;
+    color: black;
+}
+.form-container
+{
+    border: 0px solid white;
+    padding: 50px 60px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+}
+#em
+{
+    color: white;
+}
+#pass
+{
+    font-family: 'Figtree', sans-serif;
+    color: azure;
+}
+button
+{
+    color:white;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color:#0093E9 ;
+    max-width: fit-content;
+    height: 40px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+
+  
+}
+button:hover
+{
+    color: #0093E9 ;
+    background-color: white;
+    font-weight: bolder;
+} 
+
